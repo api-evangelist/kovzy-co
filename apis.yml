@@ -1,19 +1,50 @@
 aid: kovzy-co
 name: Kovzy Co.
-description: Kovzy Co. is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Kovzy is a restaurant technology company with offices in Tbilisi, Georgia and Yerevan,
+  Armenia, selling an all-in-one SaaS platform for restaurants and cafes. The product is built from
+  three modules that share one back office - a website builder that gives a restaurant its own online
+  ordering site with no commission on direct sales, a QR digital menu customers browse and order from
+  by scanning a code at the table, and a point-of-sale system that consolidates orders arriving from
+  delivery aggregators (Wolt, Glovo), the QR menu, and the restaurant's own website into a single
+  queue, with kitchen management and recipe and cost tracking on top. Pricing is per module and quoted
+  monthly in Georgian lari, and onboarding is self-service through a hosted signup that provisions a
+  restaurant subdomain. Kovzy was surfaced as a 500 Global portfolio company. It publishes no public
+  API, developer portal, SDK, or API documentation as of this profile, so this entry describes the
+  company and its partner surface rather than an API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kovzy.com/img/logo2.png
 url: https://raw.githubusercontent.com/api-evangelist/kovzy-co/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Restaurants
+- Point of Sale
+- Hospitality
+- Online Ordering
+- QR Menu
+- Website Builder
+- Food Delivery
+- SaaS
+- Georgia
+- Armenia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,24 @@ maintainers:
 common:
 - type: Website
   url: https://kovzy.com
+- type: SignUp
+  url: https://start.kovzy.com/en
+- type: Pricing
+  url: https://kovzy.com/en/#price
+- type: Integrations
+  url: integrations/_index.yml
+- type: LLMsTxt
+  url: llms/kovzy-co-llms.txt
+- type: DomainSecurity
+  url: security/kovzy-co-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kovzy
+- type: Facebook
+  url: https://www.facebook.com/kovzy
+- type: Contact
+  url: mailto:alex@kovzy.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
