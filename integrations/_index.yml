@@ -1,0 +1,65 @@
+generated: '2026-07-19'
+method: searched
+source: https://kovzy.com/en/
+summary: >-
+  Partner integrations Kovzy advertises on its own marketing site. All entries are
+  listing-only: Kovzy publishes no OpenAPI of its own, so no forkable Arazzo workflow
+  can be authored against a verified operationId on the Kovzy side. Recorded here so a
+  later round can upgrade any entry once a Kovzy spec exists.
+integrations:
+- slug: wolt
+  label: Wolt
+  partner: wolt
+  category: delivery-aggregator
+  use_case: Orders placed on Wolt flow into the Kovzy POS alongside QR-menu and website orders.
+  arazzo: null
+  status: pending-provider-spec
+- slug: glovo
+  label: Glovo
+  partner: glovo
+  category: delivery-aggregator
+  use_case: Orders placed on Glovo flow into the Kovzy POS alongside QR-menu and website orders.
+  arazzo: null
+  status: pending-provider-spec
+- slug: visa
+  label: Visa
+  partner: visa
+  category: payments
+  use_case: Card acceptance for online ordering on Kovzy-built restaurant sites.
+  arazzo: null
+  status: pending-provider-spec
+- slug: tbc-bank
+  label: TBC Bank
+  partner: tbc-bank
+  category: payments
+  use_case: Georgian acquiring/payment processing for restaurant online orders.
+  arazzo: null
+  status: pending-provider-spec
+- slug: bank-of-georgia
+  label: Bank of Georgia
+  partner: bank-of-georgia
+  category: payments
+  use_case: Georgian acquiring/payment processing for restaurant online orders.
+  arazzo: null
+  status: pending-provider-spec
+- slug: liberty-bank
+  label: Liberty Bank
+  partner: liberty-bank
+  category: payments
+  use_case: Georgian acquiring/payment processing for restaurant online orders.
+  arazzo: null
+  status: pending-provider-spec
+- slug: acba-bank
+  label: ACBA Bank
+  partner: acba-bank
+  category: payments
+  use_case: Armenian acquiring/payment processing for restaurant online orders.
+  arazzo: null
+  status: pending-provider-spec
+- slug: ameria-bank
+  label: Ameria Bank
+  partner: ameria-bank
+  category: payments
+  use_case: Armenian acquiring/payment processing for restaurant online orders.
+  arazzo: null
+  status: pending-provider-spec

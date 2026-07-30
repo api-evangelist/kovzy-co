@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of kovzy.com and start.kovzy.com
+host: https://kovzy.com
+summary: >-
+  No /.well-known/ discovery documents are published on either the marketing host
+  (kovzy.com) or the application host (start.kovzy.com). Recorded for auditability;
+  no WellKnown or SecurityTxt pointer is wired because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  host: https://kovzy.com
+  status: 404
+- path: /.well-known/openid-configuration
+  host: https://kovzy.com
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  host: https://kovzy.com
+  status: 404
+- path: /.well-known/api-catalog
+  host: https://kovzy.com
+  status: 404
+- path: /.well-known/ai-plugin.json
+  host: https://kovzy.com
+  status: 404
+- path: /llms.txt
+  host: https://kovzy.com
+  status: 404
+- path: /.well-known/security.txt
+  host: https://start.kovzy.com
+  status: 404
+- path: /.well-known/openid-configuration
+  host: https://start.kovzy.com
+  status: 404

@@ -1,0 +1,35 @@
+# Kovzy
+
+> Kovzy is a restaurant technology company operating out of Tbilisi, Georgia and Yerevan, Armenia. It sells an all-in-one SaaS platform for restaurants and cafes built from three modules — a commission-free website builder with online ordering, a QR digital menu, and a point-of-sale system that consolidates orders from delivery aggregators, QR menus, and the restaurant's own site, with kitchen management and recipe/cost tracking.
+
+Kovzy publishes no public API, developer portal, SDK, or API documentation as of this profile. This file describes the company surface only.
+
+## Products
+
+- [Website builder](https://kovzy.com/en/): Restaurant websites with online ordering and no commission on direct sales (from GEL 99/month).
+- [QR menu](https://kovzy.com/en/): Digital menu customers browse and order from by scanning a QR code (from GEL 25/month).
+- [POS system](https://kovzy.com/en/): Point-of-sale that merges orders from aggregators, QR menus, and the website, plus kitchen management and recipe/cost tracking (from GEL 59/month).
+
+## Company
+
+- [Website](https://kovzy.com): Marketing site, available in English, Georgian, and Armenian.
+- [Pricing](https://kovzy.com/en/#price): Per-module monthly pricing in Georgian lari.
+- [Sign up](https://start.kovzy.com/en): Self-service onboarding that provisions a subdomain restaurant site.
+- [LinkedIn](https://www.linkedin.com/company/kovzy)
+- [Facebook](https://www.facebook.com/kovzy)
+
+## Integrations
+
+- Delivery aggregators: Wolt, Glovo
+- Payments and banking partners: Visa, TBC Bank, Bank of Georgia, Liberty Bank, ACBA Bank, Ameria Bank
+
+## Artifacts
+
+- [Integrations index](integrations/_index.yml): Listing-only catalog of published partner integrations.
+- [Domain security](security/kovzy-co-domain-security.yml): Probed TLS/DNS posture.
+- [Well-known probe](well-known/kovzy-co-well-known.yml): Result of the /.well-known/ discovery sweep.
+
+## Notes
+
+- No OpenAPI, AsyncAPI, webhook, MCP, or SDK surface was found, so no spec-derived artifacts (errors, scopes, conventions, data model, agent skills) exist in this repo.
+- Contact: alex@kovzy.com, sales@kovzy.com
