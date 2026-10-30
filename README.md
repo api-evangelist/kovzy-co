@@ -64,12 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kovzy is a restaurant technology company with offices in Tbilisi, Georgia and Yerevan, Armenia. It sells an all-in-one SaaS platform for restaurants and cafes, built from three modules that share one back office: a commission-free website builder with online ordering, a QR digital menu, and a point-of-sale system that consolidates orders from delivery aggregators (Wolt, Glovo), the QR menu, and the restaurant's own site, with kitchen management and recipe/cost tracking.
+Kovzy is a restaurant technology company with offices in Tbilisi, Georgia and Yerevan, Armenia, selling an all-in-one SaaS platform for restaurants and cafes. The product is built from three modules that share one back office - a website builder that gives a restaurant its own online ordering site with no commission on direct sales, a QR digital menu customers browse and order from by scanning a code at the table, and a point-of-sale system that consolidates orders arriving from delivery aggregators (Wolt, Glovo), the QR menu, and the restaurant's own website into a single queue, with kitchen management and recipe and cost tracking on top. Pricing is per module and quoted monthly in Georgian lari, and onboarding is self-service through a hosted signup that provisions a restaurant subdomain. Kovzy was surfaced as a 500 Global portfolio company. It publishes no public API, developer portal, SDK, or API documentation as of this profile, so this entry describes the company and its partner surface rather than an API.
 
-Kovzy publishes no public API, developer portal, SDK, or API documentation as of this profile, so this repo carries company and partner artifacts rather than API specs.
+**Areas:** Company · Restaurant · Point-of-Sale · Hospitality · Online Ordering · QR Menu · Website Builder · Food Delivery · Software-as-a-Service · Georgia · Armenia
 
-- Website: https://kovzy.com
-- Sign up: https://start.kovzy.com/en
-- Pricing: https://kovzy.com/en/#price
+## Kovzy Co. on APIs.io
 
-Backed by: 500-global
+Everything profiled for Kovzy Co. is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kovzy-co/](https://apis.io/providers/kovzy-co/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kovzy Co Domain Security](https://apis.io/security/kovzy-co/kovzy-co-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://kovzy.com)
+- [Pricing](https://kovzy.com/en/#price)
+- [Sign up](https://start.kovzy.com/en)
+
+## API Evangelist rating
+
+**Kin Score 8.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 23.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kovzy-co/](https://apis.io/providers/kovzy-co/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kovzy Co.: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kovzy-co/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
